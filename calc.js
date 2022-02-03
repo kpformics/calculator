@@ -1,7 +1,7 @@
 //input the Data
 
 let result = document.getElementById("result_screen");
-let process = document.getElementById("inputtext")
+let process = document.getElementById("inputtext");
 
 let calculate =(number)=>{
     //variable name.any value we press//
@@ -33,10 +33,4 @@ icon.onclick = function() {
     }
 }
 
-var x = document.getElementById("inputtext").value;
-
-function display() { 
-  //process.value = x;
-  result_screen.value = Math.sin(x);
-}
-
+  
